@@ -1,4 +1,4 @@
-﻿' Developer Express Code Central Example:
+' Developer Express Code Central Example:
 ' How to hide empty Field Values (Columns/Rows)
 ' 
 ' It is necessary to use the PivotGridControl.CustomFieldValueCells
@@ -8,7 +8,6 @@
 ' 
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E2807
-
 ' Developer Express Code Central Example:
 ' How to hide particular rows and columns
 ' 
@@ -20,25 +19,21 @@
 ' 
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E2769
-
-
-Imports Microsoft.VisualBasic
 Imports System
-Imports System.Collections.Generic
 Imports System.Windows.Forms
 
 Namespace XtraPivotGrid_HidingColumnsAndRows
-	Friend NotInheritable Class Program
-		''' <summary>
-		''' The main entry point for the application.
-		''' </summary>
-		Private Sub New()
-		End Sub
-		<STAThread> _
-		Shared Sub Main()
-			Application.EnableVisualStyles()
-			Application.SetCompatibleTextRenderingDefault(False)
-			Application.Run(New Form1())
-		End Sub
-	End Class
+
+    Friend Module Program
+
+        ''' <summary>
+        ''' The main entry point for the application.
+        ''' </summary>
+        <STAThread>
+        Sub Main()
+            Call Application.EnableVisualStyles()
+            Application.SetCompatibleTextRenderingDefault(False)
+            Call Application.Run(New Form1())
+        End Sub
+    End Module
 End Namespace
