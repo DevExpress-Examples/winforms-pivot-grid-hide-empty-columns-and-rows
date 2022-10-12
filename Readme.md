@@ -5,7 +5,8 @@
 
 # Pivot Grid for WinForms - Hide Empty Field Values (Columns/Rows)
 
-The following example shows how to handle the [CustomFieldValueCells](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomFieldValueCells) event to hide empty columns and rows.
+The following example shows how to handle the [CustomFieldValueCells](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomFieldValueCells) event to hide empty columns and rows:
+
 
 ![Pivot Grid](/images/pivotgrid.png)
 
