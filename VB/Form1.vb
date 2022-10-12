@@ -1,13 +1,3 @@
-' Developer Express Code Central Example:
-' How to hide empty Field Values (Columns/Rows)
-' 
-' It is necessary to use the PivotGridControl.CustomFieldValueCells
-' (ms-help://MS.VSCC.v90/MS.VSIPCC.v90/DevExpress.NETv10.2/DevExpress.WindowsForms/DevExpressXtraPivotGridPivotGridControl_CustomFieldValueCellstopic.htm)
-' event to accomplish this task. See Also:
-' http://www.devexpress.com/scid=E2769
-' 
-' You can find sample updates and versions for different programming languages here:
-' http://www.devexpress.com/example=E2807
 Imports System
 Imports System.Globalization
 Imports System.Windows.Forms
