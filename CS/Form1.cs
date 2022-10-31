@@ -7,7 +7,8 @@ namespace XtraPivotGrid_HidingColumnsAndRows {
     public partial class Form1 : Form {
         public Form1() {
             InitializeComponent();
-            pivotGridControl1.CustomFieldValueCells += new PivotCustomFieldValueCellsEventHandler(pivotGrid_CustomFieldValueCells);
+            pivotGridControl1.CustomFieldValueCells += 
+                new PivotCustomFieldValueCellsEventHandler(pivotGrid_CustomFieldValueCells);
         }
         void Form1_Load(object sender, EventArgs e) {
             PivotHelper.FillPivot(pivotGridControl1);
