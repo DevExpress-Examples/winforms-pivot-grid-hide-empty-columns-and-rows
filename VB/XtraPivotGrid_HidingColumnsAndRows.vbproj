@@ -9,7 +9,8 @@
     <ProjectGuid>{20F9CED8-0539-4998-A1D4-894771E66BB0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>XtraPivotGrid_HidingColumnsAndRows</AssemblyName>
     <ManifestCertificateThumbprint>90E0C4801F569A17A0FC44622230A06F4516FD81</ManifestCertificateThumbprint>
     <ManifestKeyFile>EmptyWinApp_TemporaryKey.pfx</ManifestKeyFile>
